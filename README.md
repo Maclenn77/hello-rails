@@ -1,24 +1,63 @@
-# README
+# Hello Web App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the back-end of the Hello web-app. Front-end version is [here](https://github.com/Maclenn77/hellor-react).
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+This app is a Rails only-API development to connect with a React Front-end.
 
-* System dependencies
+## About the project
 
-* Configuration
+In this app, you can receive a random greeting in five different languages.
 
-* Database creation
+## API
 
-* Database initialization
+Local server is configured to open in PORT:3000. Get a json response with the path /v1/greetings once that you run a local version with `$ rails s`.
 
-* How to run the test suite
+## Built With
 
-* Services (job queues, cache servers, search engines, etc.)
+- [Ruby](https://www.ruby-lang.org/en/) 2.7.0 - A programming language.
+- [Ruby on Rails](https://rubyonrails.org/) 6.0.3.1 - A Ruby framework for web development
+- Postgresql
 
-* Deployment instructions
+## Getting started
 
-* ...
+### Prerequisites
+
+- Ruby
+- Rails
+- Bundle
+- Postgresql. **Note**: You can change the database in GemFile.
+
+### Installing
+
+1. Download this repository
+
+`$ git clone repo_url`
+
+2. Install all required gem.
+
+`$ bundle install`
+
+3. Migrate the database.
+
+`$ rails db:migrate`
+
+
+## Author
+
+👤 **Juan Paulo Perez Tejada**
+
+- Github: [@Maclenn77](https://github.com/Maclenn77)
+- Twitter: [@srjuanpapas](https://twitter.com/srjuanpapas)
+- Linkedin: [Juan Paulo Perez Tejada](https://mx.linkedin.com/in/juanpaulopereztejada)
+
+Visit [my blog](https://developerz.software/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
