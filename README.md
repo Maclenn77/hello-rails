@@ -39,10 +39,13 @@ Local server is configured to open in PORT:3000. Get a json response with the pa
 
 `$ bundle install`
 
-3. Migrate the database.
+3. Migrate or create the database.
 
-`$ rails db:migrate`
+`$ rails db:create && rails db:migrate`
 
+4. Seed database
+
+`$ rails db:seed`
 
 ## Author
 
